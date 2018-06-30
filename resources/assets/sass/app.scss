@@ -5,7 +5,10 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+$color-bg:red;
+$color-m:white;
+
 .navbar-laravel {
-  background-color: #fff;
+  background-color: $color-m;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
