@@ -9,6 +9,9 @@ $color-bg:red;
 $color-m:white;
 
 .navbar-laravel {
-  background-color: $color-m;
+  background-color: $color-bg;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+body{
+  background-color: $color-m;
 }
