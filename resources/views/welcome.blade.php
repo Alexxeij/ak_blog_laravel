@@ -55,7 +55,6 @@
 </nav>
 
 <main role="main">
-    <example-component></example-component>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
         <div class="container">
@@ -74,7 +73,9 @@
             @foreach ($all as $posts)
                 
             <div class="col-md-4">
+                <div class="ak__trans">
                 <img src="storage/{{ $posts->image }}" alt="" class="w-100">
+                </div>
                 <h2>{{ $posts->title }}</h2>
                 <p>{{ $posts->excerpt }} </p>
                 <p><a class="btn btn-secondary" href="{{  route('postShow', ['slug'=>$posts->slug]) }}" role="button">Подробнее &raquo;</a></p>

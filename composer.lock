@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "034038b005d6d86e71d68d6517199e97",
+    "content-hash": "a63a975e88da116367b429d242b0395d",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -3788,7 +3788,7 @@
                 }
             ],
             "description": "Create BREAD from the console using artisan",
-            "time": "2018-06-08T14:06:14+00:00"
+            "time": "2017-10-20T02:25:32+00:00"
         }
     ],
     "packages-dev": [

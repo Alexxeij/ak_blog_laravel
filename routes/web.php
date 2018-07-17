@@ -14,6 +14,7 @@
 // home
 Route::get('/', 'PostController@index');
 
+Route::get('/article', 'ArticleController@index');
 // admin
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
